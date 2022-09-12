@@ -1,0 +1,189 @@
+.navbar{
+  height: 9vh ;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  /* background: linear-gradient(to right, #E1A2B8 0%, #9F2BC1 100%); */
+  background-color: #0000006d;
+}
+.logo{
+  margin-top: 8vh;
+}
+.logo_img{
+  height :20vh ;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  margin: 0 2vw ;
+}
+.link a {
+  color :rgb(255, 255, 255) ;
+  text-decoration: none;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+}
+
+.nitc_logo{
+  height :7vh ;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+}
+
+#hero {
+  height: 91vh;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#hero .info h1 {
+  font-size: 3rem;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+#hero .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+#hero .info p {
+  font-size: 1.2rem;
+  max-width: 50%;
+}
+#hero .info a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  padding: 0.5em 2em;
+  margin-top: 2rem;
+  color: black;
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
+}
+/* .members_page{
+  height: 91vh;
+} */
+
+.member_detail{
+  margin: 20px 0px 10px 0px;
+  min-height: 120px;
+  border-radius: 10px;
+  display: flex;
+  /* background: linear-gradient(to right ,#FFCEF3 20%,#FDFDFD); */
+  background-color: #CEE5D0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px 0px 100px;
+  color: black ;
+  
+}
+.resume_link{
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 70vw;
+  margin: 0 auto;
+}
+.member_detail:hover{
+  background-color: #94B49F;
+  height: 130px;
+  margin: 25px -20px 25px -120px;
+
+}
+
+.card {
+  /* margin: 30px auto; */
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+  display: block;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342));
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -200px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+.flex-container{
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  flex-wrap: wrap;
+  text-shadow: 2px 2px black;
+  justify-content: space-around;
+}
+.contact_block{
+  text-decoration: none;
+}
+
+
